@@ -1,0 +1,20 @@
+# Dépendances
+node_modules/
+
+# Environnement (ne jamais commiter les secrets ou DATABASE_URL)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Builds et logs
+dist/
+build/
+*.log
+npm-debug.log*
+
+# Système / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
